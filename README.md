@@ -18,4 +18,8 @@ Python, NumPy, pandas
 
 ## Notes
 
-All three activations landed on the same 63.2% because most reviews contain none of the lexicon words, so the features carry almost no signal and the network defaults to the majority class. The biggest limitation is the tiny dataset of 92 reviews with a test set of just 19. A larger review corpus and richer text features such as TF-IDF or word embeddings would give the network something to learn. The from-scratch implementation fits best as a teaching tool for backpropagation (as it was designed to demonstrate the knoledge of the process and it was also fun considering I love Starbucks and people were being sooo funny and sincere in their reviews ;)))) )
+All three activations landed on the same 63.2% because most reviews contain none of the lexicon words, so the features carry almost no signal and the network defaults to the majority class. The biggest limitation is the tiny dataset of 92 reviews with a test set of just 19. A larger review corpus and richer text features such as TF-IDF or word embeddings would give the network something to learn. The from-scratch implementation fits best as a teaching tool for backpropagation.
+
+## Personal note
+
+I designed it to demonstrate the knoledge of the process and it was also fun considering I love Starbucks and people were being sooo funny and sincere in their reviews ;))))
